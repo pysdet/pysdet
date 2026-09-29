@@ -25,7 +25,7 @@ class SDET:
             "ISTQB": ["CTFL"],
             "azure": ["DP-900", "AZ-900"],
         }
-        self.languages = ["es_CR", "en_US"]
+        self.languages = ["es-CR", "en-US"]
 
 
     def test(self): ...
@@ -35,6 +35,6 @@ me = SDET()
 me.test()
 ~~~
 
-[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=linkedin-white&logoColor=white)](https://linkedin.com/in/pysdet/)
-[![Credly](https://custom-icon-badges.demolab.com/badge/Credly-005850.svg?style=for-the-badge&logo=credly&logoColor=white)](https://credly.com/users/pysdet/badges/credly)
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=linkedin-white&logoColor=white)](https://linkedin.com/in/mauricio-gutierrez-qa/)
+[![Credly](https://custom-icon-badges.demolab.com/badge/Credly-005850.svg?style=for-the-badge&logo=credly&logoColor=white)](https://credly.com/users/mauricio-gutierrez-qa/badges/credly)
 [![PyPI](https://custom-icon-badges.demolab.com/badge/PyPI-3775A9.svg?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/user/pysdet/)
