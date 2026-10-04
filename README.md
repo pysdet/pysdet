@@ -4,37 +4,35 @@
 from datetime import datetime
 
 
-class SDET:
+class Me:
     def __init__(self):
         self.name = "Mauricio Gutiérrez"
         self.location = "Costa Rica"
         self.years_of_experience = datetime.now().year - 2022
-        self.skills = {  # To be expanded
-            "programming_languages": ["Python", "JavaScript", "SQL"],
-            "test_automation": ["Playwright", "pytest", "Selenium", "Robot Framework", "Cucumber"],
-            "performance_testing": ["k6"],
+        self.skills = {
+            "programming_languages": ["Python", "JavaScript/TypeScript", "SQL"],
+            "test_automation": ["Playwright", "Selenium", "Robot Framework", "Pytest", "Cucumber"],
             "databases": ["SQL Server", "PostgreSQL"],
-            "cloud": ["Azure"],
+            "cloud": ["Microsoft Azure"],
             "tools": ["Postman", "Docker", "Jenkins", "GitHub Actions"],
         }
-        self.roles = ["SDET", "QA Automation Engineer", "Performance Test Engineer"]
+        self.roles = ["SDET", "QA Automation Engineer"]
         self.education = {
             "bachelors": "Information Systems Engineering",
         }
-        self.certifications = {  # To be expanded
+        self.certifications = {
             "ISTQB": ["CTFL"],
             "azure": ["DP-900", "AZ-900"],
         }
         self.languages = ["es-CR", "en-US"]
 
-
     def test(self): ...
 
 
-me = SDET()
+me = Me()
 me.test()
 ~~~
 
-[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=linkedin-white&logoColor=white)](https://linkedin.com/in/mauricio-gutierrez-qa/)
-[![Credly](https://custom-icon-badges.demolab.com/badge/Credly-005850.svg?style=for-the-badge&logo=credly&logoColor=white)](https://credly.com/users/mauricio-gutierrez-qa/badges/credly)
-[![PyPI](https://custom-icon-badges.demolab.com/badge/PyPI-3775A9.svg?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/user/pysdet/)
+
+[![Website](https://custom-icon-badges.demolab.com/badge/Website-2B8D5C.svg?style=for-the-badge&logo=globe&logoColor=white)](https://www.pysdet.com)
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2.svg?style=for-the-badge&logo=linkedin-white&logoColor=white)](https://www.linkedin.com/in/mauricio-gutierrez-qa/)
